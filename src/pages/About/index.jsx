@@ -12,6 +12,8 @@ import { DiMysql } from "react-icons/di";
 
 import SocialMedia from '../../components/SocialMedia';
 
+import image from '../../assets/perfil.jpg'
+
 const currentPage = './about'
 
 let socialMediaClass
@@ -89,7 +91,7 @@ const About = () => {
       </div>
 
       <div className={styles.perfil_img}>
-        <img data-aos="flip-left" src="src/assets/perfil.jpg" alt="" />
+        <img data-aos="flip-left" src={image} alt="" />
       </div>
     </div>
   )

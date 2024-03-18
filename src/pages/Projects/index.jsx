@@ -1,6 +1,12 @@
 import styles from './Projects.module.css'
 import SocialMedia from '../../components/SocialMedia'
 
+import project1 from '../../assets/clickTimeChallenge.png'
+import project2 from '../../assets/generator.png'
+import project4 from '../../assets/jogoDaVelha.png'
+import project5 from '../../assets/gitHubFinder.png'
+import project3 from '../../assets/finance.png'
+
 
 const Projects = () => {
 
@@ -18,35 +24,35 @@ const Projects = () => {
       <p className={styles.titleProjects}>Projetos</p>
       <div className={styles.projects}>
         <div className={styles.imgs}>
-          <img src="src/assets/clickTimeChallenge.png" alt="" />
+          <img src={project1} alt="" />
           <p>Click Time Challenge</p>
           <a href=""><button>Acessar Repostório</button></a>
           <a href=""><button>Acessar Projeto</button></a>
         </div>
 
         <div className={styles.imgs}>
-          <img src="src/assets/generator.png" alt="" />
+          <img src={project2} alt="" />
           <p>Password Generator</p>
           <a href=""><button>Acessar Repostório</button></a>
           <a href=""><button>Acessar Projeto</button></a>
         </div>
 
         <div className={styles.imgs}>
-          <img src="src/assets/jogoDaVelha.png" alt="" />
+          <img src={project3} alt="" />
           <p>Jogo da Velha</p>
           <a href=""><button>Acessar Repostório</button></a>
           <a href=""><button>Acessar Projeto</button></a>
         </div>
 
         <div className={styles.imgs}>
-          <img src="src/assets/gitHubFinder.png" alt="" />
+          <img src={project4} alt="" />
           <p>GitHub Finder</p>
           <a href=""><button>Acessar Repostório</button></a>
           <a href=""><button>Acessar Projeto</button></a>
         </div>
 
         <div className={styles.imgs}>
-          <img src="src/assets/finance.png" alt="" />
+          <img src={project5} alt="" />
           <p>Finance Control</p>
           <a href=""><button>Acessar Repostório</button></a>
           <a href=""><button>Acessar Projeto</button></a>
