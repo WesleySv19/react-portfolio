@@ -89,7 +89,7 @@ const About = () => {
       </div>
 
       <div className={styles.perfil_img}>
-        <img data-aos="flip-left" src="../src/assets/imgs/perfil.jpg" alt="" />
+        <img data-aos="flip-left" src="src/assets/perfil.jpg" alt="" />
       </div>
     </div>
   )

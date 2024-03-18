@@ -18,35 +18,35 @@ const Projects = () => {
       <p className={styles.titleProjects}>Projetos</p>
       <div className={styles.projects}>
         <div className={styles.imgs}>
-          <img src="./src/assets/imgsProjects/clickTimeChallenge.png" alt="" />
+          <img src="src/assets/clickTimeChallenge.png" alt="" />
           <p>Click Time Challenge</p>
           <a href=""><button>Acessar Repostório</button></a>
           <a href=""><button>Acessar Projeto</button></a>
         </div>
 
         <div className={styles.imgs}>
-          <img src="./src/assets/imgsProjects/generator.png" alt="" />
+          <img src="src/assets/generator.png" alt="" />
           <p>Password Generator</p>
           <a href=""><button>Acessar Repostório</button></a>
           <a href=""><button>Acessar Projeto</button></a>
         </div>
 
         <div className={styles.imgs}>
-          <img src="./src/assets/imgsProjects/jogoDaVelha.png" alt="" />
+          <img src="src/assets/jogoDaVelha.png" alt="" />
           <p>Jogo da Velha</p>
           <a href=""><button>Acessar Repostório</button></a>
           <a href=""><button>Acessar Projeto</button></a>
         </div>
 
         <div className={styles.imgs}>
-          <img src="./src/assets/imgsProjects/gitHubFinder.png" alt="" />
+          <img src="src/assets/gitHubFinder.png" alt="" />
           <p>GitHub Finder</p>
           <a href=""><button>Acessar Repostório</button></a>
           <a href=""><button>Acessar Projeto</button></a>
         </div>
 
         <div className={styles.imgs}>
-          <img src="./src/assets/imgsProjects/finance.png" alt="" />
+          <img src="src/assets/finance.png" alt="" />
           <p>Finance Control</p>
           <a href=""><button>Acessar Repostório</button></a>
           <a href=""><button>Acessar Projeto</button></a>
