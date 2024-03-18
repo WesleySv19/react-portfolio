@@ -1,0 +1,150 @@
+.about {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+img {
+    height: 40em;
+    border-radius: 10px;
+}
+
+span {
+    color: rgb(255, 215, 0);
+    font-weight: 600;
+}
+
+.perfil_img {
+    flex: 50;
+    display: flex;
+    justify-content: center;
+}
+
+.about_me {
+    flex: 50;
+}
+
+.title {
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    text-shadow: 10px 10px 25px rgb(255, 215, 0),
+    -10px 10px 25px rgb(255, 215, 0),
+    -10px -10px 25px rgb(255, 215, 0),
+    10px -10px 25px rgb(255, 215, 0);
+}
+
+.text {
+    padding: 3em;
+    font-size: 1.5rem;
+}
+
+.tech svg  {
+    width: 50px;
+    height: 80px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tech path{
+    color: rgb(255, 215, 0);
+}
+
+.divIcons {
+    text-align: center;
+}
+
+.tech {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 2em;
+    padding: 1em;
+    justify-content: center;
+    
+}
+
+p {
+    font-weight: 700;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    z-index: 100;
+    gap: 35px;
+    background: rgb(255, 215, 0);
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+.icons svg:hover {
+    fill: #f5f5f5;
+    transition: 0.3s;
+}
+
+.icons a {
+    background-color: rgb(255, 215, 0);
+}
+
+.icons svg {
+    background-color: rgb(255, 215, 0);
+    transition: 0.3s;
+    fill: #000;
+}
+
+@media (max-width: 575px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .text {
+        font-size: 1.2rem;
+    }
+
+    .tech {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .icons {
+        flex-direction: row;
+        position: fixed;
+        bottom: 5vh;
+        justify-content: center;
+        width: 50vw;
+    }
+
+    img {
+        margin-top: 3em;
+        height: 30em;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1065px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .text {
+        font-size: 1.2rem;
+    }
+
+    .tech {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .icons {
+        flex-direction: row;
+        position: fixed;
+        bottom: 5vh;
+        justify-content: center;
+        width: 50vw;
+    }
+
+    img {
+        margin-top: 3em;
+        height: 35em;
+    }
+}
