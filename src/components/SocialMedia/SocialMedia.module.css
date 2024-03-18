@@ -1,0 +1,14 @@
+.icons svg:hover {
+    fill: #f5f5f5;
+    transition: 0.3s;
+}
+
+.icons a {
+    background-color: rgb(255, 215, 0);
+}
+
+.icons svg {
+    background-color: rgb(255, 215, 0);
+    transition: 0.3s;
+    fill: #000;
+}
