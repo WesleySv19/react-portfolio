@@ -1,6 +1,4 @@
-import './App.module.css'
 import Navbar from './components/Navbar'
-// import SocialMedia from './components/SocialMedia'
 import Footer from './components/Footer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
