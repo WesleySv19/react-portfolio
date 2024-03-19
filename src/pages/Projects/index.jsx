@@ -3,9 +3,9 @@ import SocialMedia from '../../components/SocialMedia'
 
 import project1 from '../../assets/clickTimeChallenge.png'
 import project2 from '../../assets/generator.png'
+import project3 from '../../assets/finance.png'
 import project4 from '../../assets/jogoDaVelha.png'
 import project5 from '../../assets/gitHubFinder.png'
-import project3 from '../../assets/finance.png'
 
 
 const Projects = () => {
@@ -38,21 +38,21 @@ const Projects = () => {
         </div>
 
         <div className={styles.imgs}>
-          <img src={project3} alt="" />
+          <img src={project4} alt="" />
           <p>Jogo da Velha</p>
           <a href=""><button>Acessar Repostório</button></a>
           <a href=""><button>Acessar Projeto</button></a>
         </div>
 
         <div className={styles.imgs}>
-          <img src={project4} alt="" />
+          <img src={project5} alt="" />
           <p>GitHub Finder</p>
           <a href=""><button>Acessar Repostório</button></a>
           <a href=""><button>Acessar Projeto</button></a>
         </div>
 
         <div className={styles.imgs}>
-          <img src={project5} alt="" />
+          <img src={project3} alt="" />
           <p>Finance Control</p>
           <a href=""><button>Acessar Repostório</button></a>
           <a href=""><button>Acessar Projeto</button></a>
