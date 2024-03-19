@@ -24,3 +24,9 @@ nav {
     color: rgb(255, 215, 0);
     transition: 0.5s;
 }
+
+@media (max-width: 1065px) {
+    .navbar {
+        justify-content: center;
+    }
+}
