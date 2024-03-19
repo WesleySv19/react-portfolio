@@ -9,6 +9,11 @@ img {
     border-radius: 10px;
 }
 
+span {
+    font-weight: 700;
+    color: rgb(255, 215, 0);
+}
+
 .perfil_img {
     flex: 50;
     display: flex;
