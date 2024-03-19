@@ -83,6 +83,7 @@ section {
         flex: 50;
         margin-top: 2em;
         margin-left: 2em;
+        width: 70%;
     }
 
     .firstName {
@@ -109,10 +110,15 @@ section {
 
 @media (min-width: 576px) and (max-width: 1065px) {
 
+    section {
+        flex-direction: column;
+    }
+
     .home {
         flex: 50;
         margin-top: 2em;
-        margin-left: 2em;
+        margin-left: 4em;
+        width: 60%;
     }
 
     .firstName {
@@ -133,6 +139,7 @@ section {
         position: fixed;
         bottom: 5vh;
         justify-content: center;
-        width: 50vw;
+        width: 40vw;
+        gap: 80px;
     }
 }
