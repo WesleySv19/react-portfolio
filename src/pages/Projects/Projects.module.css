@@ -62,7 +62,7 @@
     right: 0;
     margin-right: 10em;
     z-index: 100;
-    gap: 35px;
+    gap: 40px;
     background: rgb(255, 215, 0);
     border-radius: 10px;
     padding: 0.5em;
@@ -98,10 +98,16 @@
     }
 
     .icons2 {
-        flex-direction: column;
+        flex-direction: row;
         position: fixed;
         right: 0;
         margin-right: 0;
+        bottom: 0;
+        justify-content: center;
+        width: 50vw;
+        gap: 30px;
+        top: auto !important;
+
     }
 }
 
@@ -119,9 +125,14 @@
     }
 
     .icons2 {
-        flex-direction: column;
+        flex-direction: row;
         position: fixed;
         right: 0;
         margin-right: 0;
+        bottom: 0;
+        justify-content: center;
+        width: 40vw;
+        gap: 80px;
+        top: auto !important;
     }
 }
