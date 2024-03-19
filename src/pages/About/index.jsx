@@ -36,7 +36,7 @@ const About = () => {
         </p>
         <hr />
         <br />
-        <p className={styles.title}><span>&#123;</span>SKILLS<span>&#125;</span></p>
+        <p className={styles.title}>Skills</p>
         <div className={styles.tech}>
           <div className={styles.divIcons}>
             <LiaHtml5 />
