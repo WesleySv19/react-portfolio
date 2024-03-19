@@ -28,7 +28,7 @@ const Home = () => {
         </div>
       </div>
       
-      <div className={styles.cv}>
+      <div data-aos="flip-up" className={styles.cv}>
         <a href=""><button>Download CV</button></a>
       </div>
 
