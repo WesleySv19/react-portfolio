@@ -4,3 +4,10 @@
     align-items: center;
     justify-content: center;
   }
+
+  footer p {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    transition: 0.3s;
+  }
