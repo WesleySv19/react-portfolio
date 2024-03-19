@@ -1,10 +1,15 @@
 import React from 'react'
 import styles from './Footer.module.css'
+import { MdOutlineEmail } from "react-icons/md";
+
 
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-        <h4>wesleyysilvaa1912@gmail.com</h4>
+      <p>
+        <MdOutlineEmail />
+        wesleyysilvaa1912@gmail.com
+      </p>
     </footer>
   )
 }
