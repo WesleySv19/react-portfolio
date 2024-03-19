@@ -9,11 +9,6 @@ img {
     border-radius: 10px;
 }
 
-span {
-    color: rgb(255, 215, 0);
-    font-weight: 600;
-}
-
 .perfil_img {
     flex: 50;
     display: flex;
@@ -140,7 +135,8 @@ p {
         position: fixed;
         bottom: 5vh;
         justify-content: center;
-        width: 50vw;
+        width: 40vw;
+        gap: 80px;
     }
 
     img {
