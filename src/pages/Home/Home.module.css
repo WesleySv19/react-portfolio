@@ -8,6 +8,7 @@
 section {
     display: flex;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 .firstName {
