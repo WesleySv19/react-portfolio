@@ -54,7 +54,7 @@ const Projects = () => {
           <img src={project5} alt="" />
           <p>GitHub Finder</p>
           <a href="https://github.com/WesleySv19/github_api_ts"><button>Acessar Repostório</button></a>
-          <a href="https://github-api-97exzbbp4-wesleyysilvaa1912gmailcoms-projects.vercel.app/"><button>Acessar Projeto</button></a>
+          <a href="https://github-api-ts.vercel.app/"><button>Acessar Projeto</button></a>
         </div>
         
         <div className={styles.imgs}>
