@@ -50,7 +50,7 @@ const Projects = () => {
           <a href=""><button>Acessar Repostório</button></a>
           <a href=""><button>Acessar Projeto</button></a>
         </div>
-
+fe
         <div className={styles.imgs}>
           <img src={project3} alt="" />
           <p>Finance Control</p>

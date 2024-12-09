@@ -17,7 +17,6 @@ const App = () => {
           <Route path='/projects' element={<Projects />} />
         </Routes>
       </BrowserRouter>
-
       <Footer />
     </div>
   )
