@@ -56,7 +56,7 @@ const Projects = () => {
           <a href="">https://github.com/WesleySv19/github_api_ts<button>Acessar Repostório</button></a>
           <a href="https://github-api-97exzbbp4-wesleyysilvaa1912gmailcoms-projects.vercel.app/"><button>Acessar Projeto</button></a>
         </div>
-fe
+        
         <div className={styles.imgs}>
           <img src={project3} alt="" />
           <p>Finance Control</p>
