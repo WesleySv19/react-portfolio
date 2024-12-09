@@ -26,22 +26,28 @@ const Projects = () => {
         <div className={styles.imgs}>
           <img src={project1} alt="" />
           <p>Click Time Challenge</p>
-          <a href=""><button>Acessar Repostório</button></a>
-          <a href=""><button>Acessar Projeto</button></a>
+          <a href="https://github.com/WesleySv19/click_time_challenge" 
+          target='_blank'><button>Acessar Repostório</button></a>
+          <a href="https://wesleysv19.github.io/click_time_challenge/" 
+          target='_blank'><button>Acessar Projeto</button></a>
         </div>
 
         <div className={styles.imgs}>
           <img src={project2} alt="" />
           <p>Password Generator</p>
-          <a href=""><button>Acessar Repostório</button></a>
-          <a href=""><button>Acessar Projeto</button></a>
+          <a href="https://github.com/WesleySv19/password-generator-js"
+          target='_blank'><button>Acessar Repostório</button></a>
+          <a href="https://wesleysv19.github.io/password-generator-js/"
+          target='_blank'><button>Acessar Projeto</button></a>
         </div>
 
         <div className={styles.imgs}>
           <img src={project4} alt="" />
           <p>Jogo da Velha</p>
-          <a href=""><button>Acessar Repostório</button></a>
-          <a href=""><button>Acessar Projeto</button></a>
+          <a href="https://github.com/WesleySv19/jogo-da-velha-javascript" 
+          target='_blank'><button>Acessar Repostório</button></a>
+          <a href="https://wesleysv19.github.io/jogo-da-velha-javascript/" 
+          target='_blank'><button>Acessar Projeto</button></a>
         </div>
 
         <div className={styles.imgs}>
@@ -54,8 +60,10 @@ fe
         <div className={styles.imgs}>
           <img src={project3} alt="" />
           <p>Finance Control</p>
-          <a href=""><button>Acessar Repostório</button></a>
-          <a href=""><button>Acessar Projeto</button></a>
+          <a href="https://github.com/WesleySv19/finance-control-js" 
+          target='_blank'><button>Acessar Repostório</button></a>
+          <a href="https://wesleysv19.github.io/finance-control-js/"
+          target='_blank'><button>Acessar Projeto</button></a>
         </div>
       </div>
     </section>

@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './Home.module.css'
 import SocialMedia from '../../components/SocialMedia'
 
@@ -29,7 +28,8 @@ const Home = () => {
       </div>
       
       <div data-aos="flip-up" className={styles.cv}>
-        <a href=""><button>Download CV</button></a>
+        <a 
+        href="https://drive.google.com/file/d/1FSAuRlptOPxDV6mKlNgLVyKENyIBng7r/view?usp=drive_link" target='_blank'><button>Download CV</button></a>
       </div>
 
     </section>
