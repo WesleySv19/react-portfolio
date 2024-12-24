@@ -29,7 +29,7 @@ const About = () => {
         <p className={styles.title}>Sobre mim</p>
         <p className={styles.text}>Olá, seja muito bem vindo(a) ao meu portfólio pessoal.
           <br /><br />
-          Me chamo <span>Wesley da Silva</span>, tenho 22 anos e sou residente de <span>Belo Horizonte/MG</span>.
+          Me chamo <span>Wesley da Silva</span>, tenho 23 anos e sou residente de <span>Belo Horizonte/MG</span>.
           Sou iniciante no mundo da programação, estou em busca de minha primeira vaga como <span>desenvolvedor web</span>, aqui você verá alguns de meus projetos, um pouco sobre minhas stacks que venho me especializando e estudando.
           <br /><br />
           Atualmente estou aprimorando minhas habilidades em <span>ReactJS</span> e <span>NodeJs</span>, com o objetivo de entender as camadas de uma aplicação <span>fullstack</span>.
