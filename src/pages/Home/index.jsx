@@ -1,7 +1,5 @@
 import styles from './Home.module.css'
 import SocialMedia from '../../components/SocialMedia'
-// import Cv from '../../../public/public/wesleysilvacv.pdf'
-
 
 const currentPage = '/'
 
