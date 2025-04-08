@@ -1,5 +1,7 @@
 import styles from './Home.module.css'
 import SocialMedia from '../../components/SocialMedia'
+// import Cv from '../../../public/public/wesleysilvacv.pdf'
+
 
 const currentPage = '/'
 
@@ -29,7 +31,7 @@ const Home = () => {
       
       <div data-aos="flip-up" className={styles.cv}>
         <a 
-        href="https://drive.google.com/file/d/1FSAuRlptOPxDV6mKlNgLVyKENyIBng7r/view?usp=drive_link" target='_blank'><button>Download CV</button></a>
+        href="wesleysilvacv.pdf" download><button>Download CV</button></a>
       </div>
 
     </section>
