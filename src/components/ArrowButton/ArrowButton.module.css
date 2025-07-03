@@ -1,0 +1,16 @@
+.arrowButtonDiv {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 2em;
+    cursor: pointer;
+}
+
+.arrowButtonDiv button {
+    padding: 0.5em;
+    border: none;
+}
+
+svg {
+    cursor: pointer;
+}
