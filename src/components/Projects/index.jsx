@@ -1,7 +1,7 @@
 import styles from './Projects.module.css'
 
 import project1 from '../../assets/clickTimeChallenge.png'
-import project2 from '../../assets/generator.png'
+import project2 from '../../assets/ts_commerce.png'
 import project3 from '../../assets/finance.png'
 import project4 from '../../assets/jogoDaVelha.png'
 import project5 from '../../assets/gitHubFinder.png'
@@ -27,10 +27,10 @@ const Projects = () => {
 
         <div className={styles.imgs}>
           <img src={project2} alt="" />
-          <p>Password Generator</p>
-          <a href="https://github.com/WesleySv19/password-generator-js"
+          <p>TS-Commerce</p>
+          <a href="https://github.com/WesleySv19/TS-Commerce"
           target='_blank'><button>Acessar Repostório</button></a>
-          <a href="https://wesleysv19.github.io/password-generator-js/"
+          <a href="https://ts-commerce-khaki.vercel.app/"
           target='_blank'><button>Acessar Projeto</button></a>
         </div>
 
