@@ -19,7 +19,6 @@ section {
 }
 
 .lastName {
-    font-family: fantasy;
     letter-spacing: 7px;
     font-size: 7em;
     border-bottom: 5px ridge rgb(255, 215, 0);
